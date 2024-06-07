@@ -1,1 +1,0 @@
-Serge is a scientific computing hobbyist and the main author of Pythran. Serge is also a maintainer of xsimd. He holds a PhD in compilation, and enjoys chopping wood and bugs, indifferently.
