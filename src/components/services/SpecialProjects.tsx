@@ -11,13 +11,12 @@ export function SpecialProjectsIllustration() {
     <ThemedImage
       alt="Illustration showing a group of people working together"
       sources={{
-        light: useBaseUrl("/img/illustrations/special-project-light.svg"),
+        light: useBaseUrl("/img/illustrations/special-projects-light.svg"),
         dark: useBaseUrl("/img/illustrations/special-projects-dark.svg"),
       }}
     />
   );
 }
-
 
 
 export function SpecialProjectsDesktop() {
