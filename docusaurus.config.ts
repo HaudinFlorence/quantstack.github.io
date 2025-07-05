@@ -120,7 +120,7 @@ const config: Config = {
         },
         {
           to: "/contact/",
-          label: "CONTACT US",
+          label: "Contact us",
           position: "right",
           className: "contact",
         },

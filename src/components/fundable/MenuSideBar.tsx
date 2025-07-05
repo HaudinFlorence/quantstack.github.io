@@ -35,7 +35,7 @@ export default function MenuSideBar() {
                 href={`#${section.id}`}
                 className={`${activeSectionId === section.id ? styles.active_section : ''}`}
               >
-                <span className={styles.indicator} />
+                <span className={styles.menu_sidebar_indicator} />
                 <span className={styles.menu_sidebar_item}>{section.label}</span>
               </a>
 

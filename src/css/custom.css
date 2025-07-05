@@ -554,7 +554,7 @@ a.menu__link:active {
   border-radius: 4px;
   font-weight: bolder;
   font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 20px;
+  margin: var(--ifm-navbar-item-padding-vertical) 8px;
 }
 
 .contact:hover {
@@ -566,7 +566,7 @@ a.menu__link:active {
   color: black;
   border-radius: 4px;
   font-style: normal;
-  margin: var(--ifm-navbar-item-padding-vertical) 20px;
+  margin: var(--ifm-navbar-item-padding-vertical) 8px;
 }
 
 .fundable_projects:hover {
