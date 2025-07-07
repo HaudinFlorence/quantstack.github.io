@@ -26,23 +26,10 @@ export function LargeProjectCardContent({ project }) {
             <div className="row">
                 <div className="col col--12">
                     <div className={styles.large_project_card_text_container}>
-                        <div className={styles.large_project_card_section_title}>Overview</div>
                         <div className={styles.large_project_card_description_container}>
                             <div className={styles.large_project_card_description}>
                                 <project.description />
                             </div>
-                        </div>
-                        <div className={styles.large_project_card_section_title}>Option A</div>
-                        <div className={styles.large_project_card_option}>
-                            {project.optionA}
-                        </div>
-                        <div className={styles.large_project_card_section_title}>Option B</div>
-                        <div className={styles.large_project_card_option}>
-                            {project.optionB}
-                        </div>
-                        <div className={styles.large_project_card_section_title}>Custom Option</div>
-                        <div className={styles.large_project_card_option}>
-                            {project.customOption}
                         </div>
                     </div>
                 </div>
@@ -56,11 +43,9 @@ export default function LargeProjectCard({ project }) {
             <LargeProjectCardContent project={project} />
             <div className="row">
                 <div className="col col--12">
-                    <div className={styles.large_project_card_contact_text}>Are you interested in this project? Either entirely or partially, contact us for more information on how to help us fund it.</div>
                     <div><LinkToGetAQuote label={"GET A QUOTE"} pageName={project.pageName} /></div>
                 </div>
             </div>
         </div>
-
     );
 }
